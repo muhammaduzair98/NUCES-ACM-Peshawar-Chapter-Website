@@ -1,0 +1,39 @@
+/**
+ * Range Slider style
+ */
+
+.eplus-range-slider-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.eplus-range-slider-wrap > input[type="range"] {
+    -webkit-appearance: none;
+    width: 95%;
+    height: 15px;
+    border-radius: 20px;
+    background: #bcbcbc;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.eplus-range-slider-wrap > input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #0273aa;
+    cursor: pointer;
+}
+
+.eplus-range-slider-wrap > input[type="range"]::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #0273aa;
+    cursor: pointer;
+}

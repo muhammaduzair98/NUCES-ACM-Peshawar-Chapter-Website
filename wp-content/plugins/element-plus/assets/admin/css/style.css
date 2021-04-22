@@ -1,0 +1,60 @@
+/*
+Admin css
+*/
+
+.select2-container {
+    width: 100% !important;
+}
+
+
+ul.eplus-vc-image-select > li {
+    display: inline-block;
+    margin: 5px 10px 10px 0;
+    box-shadow: 2px 2px 6px 1px #cecece;
+    padding: 5px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    vertical-align: top;
+}
+
+ul.eplus-vc-image-select > li.active {
+    border-color: #4caf50;
+}
+
+ul.eplus-vc-image-select > li > img {
+    width: 100%;
+}
+
+ul.eplus-vc-image-select > input[type="text"] {
+    display: none;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+/**
+ * Notices
+ */
+
+.eplus-notice {
+    background: #00bcd43b;
+    padding: 10px;
+    border-left: 3px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.eplus-notice.eplus-warning {
+    background: #ff98003b;
+}
+
+.eplus-notice.eplus-error {
+    background: #ff57223b;
+}
+
+.eplus-notice.eplus-success {
+    background: #4caf503b;
+}
